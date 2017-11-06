@@ -5,8 +5,6 @@ Correos express
 Usage Examples
 --------------
 
-.. code-block:: python
-
     import correosexpress
     correos = correosexpress.Picking('USERNAME', 'PASSWORD')
     correos.create({
