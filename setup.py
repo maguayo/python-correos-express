@@ -16,7 +16,7 @@ setup(
     author_email='marcos@aguayo.es',
     url="http://marcosaguayo.com/",
     description="Python package for Correos express carrier",
-    long_description=read('README'),
+    long_description=read('README.md'),
     download_url="https://github.com/MarcosAguayo/python-correos-express",
     packages=find_packages(),
     classifiers=[
