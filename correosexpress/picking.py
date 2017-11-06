@@ -13,6 +13,7 @@ class Picking(API):
     def create(self, data):
         reference = None
         label = None
+        labels = None
         error = None
 
         vals = {
