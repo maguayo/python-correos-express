@@ -1,0 +1,6 @@
+include LICENSE
+include COPYRIGHT
+include README
+include CHANGELOG
+include INSTALL
+include correosexpress/*
