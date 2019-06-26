@@ -108,7 +108,7 @@ class Picking(API):
         if result.status_code != 200:
             raise Exception('Unknown Error')
 
-        string_result_content = get_json_from_string(result.content)
+        string_result_content = get_json_from_string(result.content.decode())
 
         result_content = json.loads(string_result_content)
         if result_content['codigoRetorno'] == 0:
