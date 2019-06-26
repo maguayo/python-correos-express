@@ -119,7 +119,7 @@ class Picking(API):
         else:
             return reference, labels, result_content
 
-        return reference, labels, error
+        return result_content, reference, labels, error
 
     def save_label(self, path):
         with open(os.path.expanduser(path), 'wb') as fout:
