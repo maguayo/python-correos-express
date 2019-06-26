@@ -117,7 +117,7 @@ class Picking(API):
             for label in result_content['etiqueta']:
                 self.label_data = label['etiqueta1']
         else:
-            return reference, labels, result_content['mensajeRetorno']
+            return reference, labels, result_content
 
         return reference, labels, error
 
