@@ -7,7 +7,7 @@ def get_url(debug=False):
     if debug:
         return 'https://test.correosexpress.com/wspsc/apiRestGrabacionEnvio/json/grabacionEnvio'
     else:
-        return 'https://www.correosexpress.com/wpsc/apiRestGrabacionEnvio/json/grabacionEnvio'
+        return 'https://www.cexpr.es/wspsc/apiRestGrabacionEnviok8s/json/grabacionEnvio'
 
 
 def get_json_from_string(string):
